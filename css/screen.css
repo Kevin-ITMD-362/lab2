@@ -1,1 +1,41 @@
-/* Mobile-Friendly */
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+input[type=text]:hover {
+  border-color: #dddddd;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type=submit] {
+  background-color: #A367FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6500FF;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 24px
+}
+
+@media only screen and (max-width: 700px) {
+  #email #phonenumber #dateofbirth {
+    flex-wrap: nowrap;
+    width: 60%;
+  }
+}
